@@ -145,4 +145,4 @@ def requires_auth(permission=''):
 @requires_auth('get:images')
 def images(token):
     print(token)
-    return 'I feel FUCKING insane!!!'
+    return 'Successfully printed'
